@@ -126,7 +126,6 @@ async def echo(message: types.Message):
         bot_logger.info(f'Completed: {len(sites)} sites/results and {len(output_messages)} text messages.')
 
         if not output_messages:
-            pass
             await message.reply('No accounts found!')
         else:
             for output_message in output_messages:
