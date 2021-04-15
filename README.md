@@ -15,8 +15,6 @@ Official bot: [@maigret_osint_bot](http://t.me/maigret_osint_bot)
 ## Using
 
 ```shell
-~~export API_ID=<your api id>~~
-~~export API_HASH=<your api hash>~~
 python3 bot.py
 ```
 
